@@ -1,3 +1,4 @@
+package ThreadExample;
 
 public class TestSynchronized {
 	public static void main(String[] args) {

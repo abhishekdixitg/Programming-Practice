@@ -1,3 +1,5 @@
+package ThreadExample;
+
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -16,7 +18,7 @@ public class MyAccount {
 					try {
 						Thread.sleep(10000);
 					} catch (InterruptedException ie) {
-
+						Thread.currentThread().interrupt();
 					}
 					balance -= amount;
 					System.out.println("Current balance::" + balance);
@@ -27,8 +29,9 @@ public class MyAccount {
 				lock.unlock();
 			}
 		} catch (Exception e) {
-
+			Thread.currentThread().interrupt();
 		}
+
 	}
 
 }

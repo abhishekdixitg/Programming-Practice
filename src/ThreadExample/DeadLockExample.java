@@ -1,3 +1,5 @@
+package ThreadExample;
+
 class DeadLockExample {
 
 	private static final Object obj1 = new Object();

@@ -1,8 +1,10 @@
+package ExceptionHandling;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 class exceptionHandling {
-	public static final Logger logger = Logger.getLogger(Test.class.getName());
+	public static final Logger logger = Logger.getLogger(exceptionHandling.class.getName());
 
 	public void divide(int a, int b) {
 		try {
