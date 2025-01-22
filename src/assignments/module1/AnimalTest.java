@@ -1,4 +1,4 @@
-package module1;
+package assignments.module1;
 
 //Base Class
 abstract class Animal {

@@ -1,4 +1,4 @@
-package module1;
+package assignments.module1;
 
 class Employee {
 	private String name;

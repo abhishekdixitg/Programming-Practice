@@ -1,4 +1,4 @@
-package module1;
+package assignments.module1;
 
 //Parent Class
 class AnimalExample {

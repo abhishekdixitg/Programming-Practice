@@ -1,4 +1,4 @@
-package module1;
+package assignments.module1;
 
 //Child Class - Inheriting ParentClass
 class ChildClass extends ParentClass {

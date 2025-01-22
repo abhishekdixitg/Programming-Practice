@@ -1,4 +1,4 @@
-package module1;
+package assignments.module1;
 
 //Class implementing multiple interfaces
 class Duck implements Flyable, Swimmable {
