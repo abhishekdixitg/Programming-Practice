@@ -1,4 +1,4 @@
-package M1;
+package module1;
 
 interface AbstractExample {
 	abstract int calculate(int a, int b);

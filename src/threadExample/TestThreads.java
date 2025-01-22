@@ -1,4 +1,4 @@
-package ThreadExample;
+package threadExample;
 
 class Counter {
 	int val = 0;

@@ -1,4 +1,4 @@
-package ThreadExample;
+package threadExample;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;

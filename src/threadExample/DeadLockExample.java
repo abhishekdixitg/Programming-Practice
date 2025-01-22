@@ -1,4 +1,4 @@
-package ThreadExample;
+package threadExample;
 
 class DeadLockExample {
 
