@@ -9,10 +9,10 @@ class exceptionHandling {
 	public void divide(int a, int b) {
 		try {
 			if (a > 1) {
-				throw new CustomException("value greater than 1");
+				throw new CustomExceptionExample("value greater than 1");
 			}
 			System.out.println(a / b);
-		} catch (ArithmeticException | CustomException e) {
+		} catch (ArithmeticException | CustomExceptionExample e) {
 			logger.log(Level.SEVERE, "Divide by zero not allowed");
 			// System.out.println("Error: Divide by zero no allowed");
 		} finally {
