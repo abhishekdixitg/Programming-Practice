@@ -55,6 +55,7 @@ public class Test {
 		for (int i = abc.length() - 1; i >= 0; i--) {
 			reverse += abc.charAt(i);
 		}
+
 		System.out.println("reverse------" + reverse);
 
 		System.out.println("reverse------" + abc.split(" "));
