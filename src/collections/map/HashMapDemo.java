@@ -20,5 +20,11 @@ public class HashMapDemo {
 			System.out.println(i.getKey() + " value:: " + i.getValue());
 		}
 
+		// Additional methods
+		map.putIfAbsent(3, "xyz");
+		map.putIfAbsent(4, "xyz");
+
+		System.out.println(map);
+
 	}
 }
