@@ -20,11 +20,11 @@ public class SortedMapDemo {
 
 		// SortedMap<Integer, String> map1 = new TreeMap<>((a, b) -> b - a); // with
 		// comparator, reverse order
-
+		map1.put(30, "xavier");
 		map1.put(10, "Rahul");
 
 		map1.put(20, "Shashank");
-		map1.put(30, "xavier");
+
 		map1.put(40, "Mohit");
 		map1.put(50, "yaman");
 		System.out.println(map1);

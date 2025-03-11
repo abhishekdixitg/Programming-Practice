@@ -22,7 +22,7 @@ public class EnumMapDemo {
 		map.put(Day.Tuesday, "Lecture");
 		map.put(Day.Monday, "No class");
 
-		System.out.println(Day.Tuesday.ordinal());
+		System.out.println(Day.Wednesday.ordinal());
 		System.out.println(map);
 	}
 

@@ -18,6 +18,8 @@ public class IDHashMapDemo {
 		IdentityHashMap<String, String> strMap1 = new IdentityHashMap<>();
 		strMap1.put(s1, "Abhishek");
 		strMap1.put(s2, "Dixit");
+		// memory address hashcode
+		// check ==
 		System.out.println("strMap1--" + strMap1);
 
 	}
